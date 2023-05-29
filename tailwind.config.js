@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: '#ecf0f3',
         content: '#1f2937',
+        accent: '#5651e5',
       },
       screens: {
         sm: '640px',

@@ -32,11 +32,16 @@
     @apply cursor-pointer
   }
 
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  .button-primary {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white p-4
   }
-}
-
-.item {
-  @apply p-4 rounded-full shadow-md shadow-gray-400 cursor-pointer flex items-center justify-center
+  .button-dark {
+    @apply shadow-lg shadow-gray-400 rounded-md bg-content text-white px-6 py-2 text-base
+  }
+  .button-outline {
+    @apply shadow-lg shadow-gray-400 rounded-md bg-transparent border-2 border-gray-600  px-6 py-2 text-base
+  }
+  .item {
+    @apply p-4 rounded-full shadow-md shadow-gray-400 cursor-pointer flex items-center justify-center
+  }
 }

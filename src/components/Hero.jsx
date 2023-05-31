@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs"
 import { IoMailOutline } from "react-icons/io5"
-
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 export default function Hero() {
   return (
     <div className="w-full h-screen text-center">
@@ -19,7 +19,9 @@ export default function Hero() {
            
           </div>
           <h1>A Front-End Web Developer</h1>
-          <p className="text-xl text-gray-600 ">I love crafting and creating <span className="text-2xl">🛠</span> I&apos;m a lifelong learner <span className="text-2xl">📚</span><br/>and a huge cat person <span className="text-2xl">🐈</span></p>
+          
+          <p className="text-xl text-gray-600 "><RoughNotationGroup show={true}>
+            I love <RoughNotation type="highlight" color="#ffe7a0" iterations={1}>crafting</RoughNotation> and <RoughNotation type="highlight" color="#f5e1fd" iterations={1}>creating</RoughNotation> <span className="text-2xl">🛠</span> I&apos;m a <RoughNotation type="highlight" color="#C1E1C1" iterations={1}>lifelong learner</RoughNotation> <span className="text-2xl">📚</span><br/>and a huge <RoughNotation type="highlight" color="#ffc0cb" >cat person</RoughNotation> <span className="text-2xl">🐈</span></RoughNotationGroup></p>
           <div className="flex items-center pt-4 gap-x-6 md:gap-x-8 text-xl md:text-2xl">
             <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110">
               <BsLinkedin />

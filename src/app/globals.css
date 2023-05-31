@@ -36,10 +36,10 @@
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white p-4
   }
   .button-dark {
-    @apply shadow-lg shadow-gray-400 rounded-md bg-content text-white px-6 py-2 text-base
+    @apply shadow-lg shadow-gray-400 rounded-md bg-content text-white px-6 py-2 text-base border-2 border-content hover:brightness-150 ease-in-out transition-all duration-300
   }
   .button-outline {
-    @apply shadow-lg shadow-gray-400 rounded-md bg-transparent border-2 border-gray-600  px-6 py-2 text-base
+    @apply shadow-lg shadow-gray-400 rounded-md bg-primary border-2 border-gray-600 px-6 py-2 text-base hover:brightness-90  ease-in-out transition-all duration-300
   }
   .item {
     @apply p-4 rounded-full shadow-md shadow-gray-400 cursor-pointer flex items-center justify-center

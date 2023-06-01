@@ -15,7 +15,7 @@ export default function Carousel({data}) {
   };
   console.log(slide)
   return (
-    <div className='flex justify-center items-center relative w-[576px] h-[315px] bg-blue-200 group transition-all duration-300'>
+    <div className='flex justify-center items-center relative w-[576px] h-[315px] group transition-all duration-300'>
       <div onClick={prevSlide} className={`${slide === 0 ? ' bg-primary/80 text-gray-500 cursor-default' : ''} bg-primary/90 p-2 rounded-full text-xl absolute left-4 z-10 cursor-pointer hidden group-hover:block`}>
         <HiArrowLeft />
       </div>
@@ -29,7 +29,7 @@ export default function Carousel({data}) {
         fill={true}
         style={{objectFit: "contain"}}
         loading="lazy"
-        className='w-full h-full rounded-xl'/>
+        className='w-full h-full rounded-xl drop-shadow-2xl'/>
       </div>
       )
     })}

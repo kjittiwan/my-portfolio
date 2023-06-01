@@ -8,7 +8,13 @@
   box-sizing: border-box;
 }
 
+
+
 @layer base {
+  html {
+    @apply scroll-smooth
+  }
+
   body {
     @apply bg-primary text-content tracking-wide
   }

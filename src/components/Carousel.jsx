@@ -13,7 +13,6 @@ export default function Carousel({data}) {
   const prevSlide = () => {
     setSlide(slide === 0 ? 0 : slide - 1);
   };
-  console.log(slide)
   return (
     <div className='flex justify-center items-center relative w-full h-[230px] md:w-[576px] md:h-[315px] group transition-all duration-300'>
       <div onClick={prevSlide} className={`${slide === 0 ? ' bg-primary/80 text-gray-500 cursor-default' : ''} bg-primary/90 p-2 rounded-full text-base lg:text-xl absolute left-4 z-10 cursor-pointer hidden group-hover:block`}>

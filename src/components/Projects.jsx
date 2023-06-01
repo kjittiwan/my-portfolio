@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem'
 
 export default function Projects() {
   return (
-    <div className='min-h-screen w-full my-24'>
+    <div id='projects' className='min-h-screen w-full my-24 scroll-mt-40'>
       <div className="self-center text-center mb-16">
           <p className="text-accent mb-2">PORTFOLIO</p>
           <h3>What I&apos;ve Built</h3>

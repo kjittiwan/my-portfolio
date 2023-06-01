@@ -2,7 +2,7 @@ import SkillItem from "./SkillItem"
 
 export default function Skills() {
   return (
-    <div className="w-full flex justify-center my-24">
+    <div id='skills' className="w-full flex justify-center my-24 scroll-mt-56">
       <div className="flex flex-col items-start  gap-y-10">
         <div className="self-center text-center">
           <p className="text-accent mb-2">SKILLS & TOOLS</p>

@@ -15,11 +15,10 @@ export default function Carousel({data}) {
   };
   console.log(slide)
   return (
-    <div className='flex justify-center items-center relative w-[576px] h-[315px] group transition-all duration-300'>
-      <div onClick={prevSlide} className={`${slide === 0 ? ' bg-primary/80 text-gray-500 cursor-default' : ''} bg-primary/90 p-2 rounded-full text-xl absolute left-4 z-10 cursor-pointer hidden group-hover:block`}>
+    <div className='flex justify-center items-center relative w-full h-[230px] md:w-[576px] md:h-[315px] group transition-all duration-300'>
+      <div onClick={prevSlide} className={`${slide === 0 ? ' bg-primary/80 text-gray-500 cursor-default' : ''} bg-primary/90 p-2 rounded-full text-base lg:text-xl absolute left-4 z-10 cursor-pointer hidden group-hover:block`}>
         <HiArrowLeft />
       </div>
-      
       {data.map((item, idx) => {
       return (
       <div key={idx} className={`${slide === idx ? 'block relative w-full h-full' : 'hidden' }`}>
@@ -27,17 +26,18 @@ export default function Carousel({data}) {
         src={item.src} 
         alt={item.alt}
         fill={true}
-        style={{objectFit: "contain"}}
         loading="lazy"
-        className='w-full h-full rounded-xl drop-shadow-2xl'/>
+        className='w-full h-full rounded-xl drop-shadow-2xl object-contain'/>
       </div>
       )
     })}
-    <div onClick={nextSlide} className={`${slide === data.length - 1 ? ' bg-primary/80 text-gray-500 cursor-default' : ''} bg-primary/90 p-2 rounded-full text-xl absolute right-4 z-10 cursor-pointer hidden group-hover:block`}>
+    <div onClick={nextSlide} className={`${slide === data.length - 1 ? ' bg-primary/80 text-gray-500 cursor-default' : ''} bg-primary/90 p-2 rounded-full text-base lg:text-xl absolute right-4 z-10 cursor-pointer hidden group-hover:block`}>
         <HiArrowRight />
     </div>
-    <span className='hidden group-hover:flex absolute bottom-4 gap-x-2'>{data.map((_, idx) => {
-      return (<button key={idx} onClick={null} className={`${slide === idx ? 'bg-blue-500 cursor-default' : 'bg-gray-300 cursor-pointer'} h-2 w-2 rounded-full shadow-md`}></button>)
+    <span className='flex absolute bottom-8 lg:bottom-4 gap-x-2'>{data.map((_, idx) => {
+      return (
+        <button key={idx} onClick={() => setSlide(idx)} className={`${slide === idx ? 'bg-blue-500 cursor-default' : 'bg-gray-300 cursor-pointer'} h-2 w-2 rounded-full shadow-lg`}></button>
+      )
     })}</span>
     </div>
   )

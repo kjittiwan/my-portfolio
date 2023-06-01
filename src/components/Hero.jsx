@@ -4,7 +4,7 @@ import { IoMailOutline } from "react-icons/io5"
 export default function Hero() {
   return (
     <div className="w-full h-screen text-center">
-      <div className="w-full h-full mx-auto px-6 p-2 flex flex-col justify-center items-center gap-y-4 md:gap-y-6">
+      <div className="w-full h-full mx-auto px-6 p-2 flex flex-col justify-center items-center gap-y-4 md:gap-y-6 pt-14">
           <div className="flex gap-x-4 items-center justify-center ">
            <h1>Hi, I&apos;m <span className="text-accent">Kann</span></h1>
            <div className="w-[60px] h-[60px] md:w-[85px] md:h-[85px] relative">

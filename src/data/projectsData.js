@@ -1,5 +1,6 @@
 export const cleoData = {
   name: 'cleo',
+  emoji: '✨',
   desc: 'An e-commerce store made using the Fake Store API. The website prioritizes user experience, making it easy for customers to find and purchase the products they need.',
   tech: ['React', 'Tailwind CSS'],
   github: 'https://github.com/kjittiwan/e-commerce',
@@ -26,6 +27,7 @@ export const cleoData = {
 
 export const atomData = {
   name: 'atom',
+  emoji: '🔩',
   desc: 'A sleek and minimal multi-page website made for an architecture firm to showcase their works, serve as a branding tool, and relay information to clients.',
   tech: ['React', 'Tailwind CSS'],
   github: 'https://github.com/kjittiwan/atom-website',
@@ -56,7 +58,8 @@ export const atomData = {
 
 export const cryptoData = {
   name: 'crypto planet',
-  desc: 'A crypto app that allows users to search for and view information of various cryptocurrencies. Users can also login and add coins to their watchlist',
+  emoji: '🪐',
+  desc: 'A crypto app that allows users to search for and view information of various cryptocurrencies. Users can also login and add coins to their watchlist.',
   tech: ['React', 'Tailwind', 'Firebase'],
   github: 'https://github.com/kjittiwan/crypto-app',
   demo: 'https://cryptoplanet.vercel.app/',
@@ -81,7 +84,8 @@ export const cryptoData = {
 }
 export const highkingData = {
   name: 'highking',
-  desc: 'A landing page for a tour operator specialized in hiking. The page focuses on ',
+  emoji: '🏔',
+  desc: 'A landing page for a tour operator. The page has clean design with a modern layout. The user experience is smooth with transitions on every scroll down.',
   tech: ['Javascript', 'SCSS'],
   github: 'https://github.com/kjittiwan/crypto-app',
   demo: 'https://cryptoplanet.vercel.app/',

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function Skill({ name }) {
+export default function SkillItem({ name }) {
   return (
     <div className="flex flex-col gap-y-4 items-center">
     <div className="item">

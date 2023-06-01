@@ -1,4 +1,4 @@
-import Skill from "./Skill"
+import SkillItem from "./SkillItem"
 
 export default function Skills() {
   return (
@@ -9,18 +9,18 @@ export default function Skills() {
           <h3>What I Can Do</h3>
         </div>
         <div className="grid grid-cols-3 grid-rows-4 md:grid-cols-6 md:grid-rows-2 gap-6">
-          <Skill name='html'/>
-          <Skill name='css' />
-          <Skill name='javascript' />
-          <Skill name='typescript' />
-          <Skill name='react' />
-          <Skill name='tailwind' />
-          <Skill name='sass' />
-          <Skill name='node.js' />
-          <Skill name='next.js' />
-          <Skill name='firebase' />
-          <Skill name='git' />
-          <Skill name='github' />
+          <SkillItem name='html'/>
+          <SkillItem name='css' />
+          <SkillItem name='javascript' />
+          <SkillItem name='typescript' />
+          <SkillItem name='react' />
+          <SkillItem name='tailwind' />
+          <SkillItem name='sass' />
+          <SkillItem name='node.js' />
+          <SkillItem name='next.js' />
+          <SkillItem name='firebase' />
+          <SkillItem name='git' />
+          <SkillItem name='github' />
         </div>
       </div>
     </div>

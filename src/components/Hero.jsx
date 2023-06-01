@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs"
 import { IoMailOutline } from "react-icons/io5"
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 export default function Hero() {
   return (
     <div className="w-full h-screen text-center">

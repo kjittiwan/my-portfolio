@@ -41,7 +41,6 @@ export default function Navbar() {
               <li className="hover:text-accent transition-all duration-300">
                 <a href="#contact">Contact</a>
               </li>
-
           </ul>
           <div onClick={toggleNav} className="md:hidden">
             <HiOutlineMenu className="text-2xl"/>

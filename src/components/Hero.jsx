@@ -13,7 +13,7 @@ export default function Hero() {
               <h1>Hi, I&apos;m <span className="text-accent">Kann</span></h1>
               <div className="w-[60px] h-[60px] md:w-[85px] md:h-[85px] relative">
                 <Image
-                src='/../public/assets/hello.png'
+                src='/assets/hello.png'
                 alt='/'
                 fill={true}
                 style={{objectFit: "contain"}}

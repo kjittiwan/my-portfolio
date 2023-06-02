@@ -39,7 +39,7 @@ export default function About() {
           <Slide direction='right' duration={2000} triggerOnce={true} className='w-[40%] h-full hidden lg:block relative'>
             <div className="w-full h-full relative rounded-xl">
               <Image
-              src='/../public/assets/setup.jpg'
+              src='/assets/setup.jpg'
               alt='/'
               fill={true}
               className='rounded-xl object-cover shadow-lg shadow-gray-400 w-full h-full'

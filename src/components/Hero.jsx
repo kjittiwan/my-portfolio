@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { Fade, Slide } from "react-awesome-reveal"
 import { BsLinkedin, BsGithub } from "react-icons/bs"
-import { IoMailOutline } from "react-icons/io5"
+import { IoMail } from "react-icons/io5"
 export default function Hero() {
   return (
     <div id='home' className="w-full h-screen text-center">
@@ -29,15 +29,15 @@ export default function Hero() {
             I love crafting and creating <span className="text-2xl">🛠</span> I&apos;m a lifelong learner <span className="text-2xl">📚</span><br/>and a huge cat person <span className="text-2xl">🐈</span></p>
           </Slide>
           <Slide cascade direction="down" damping={0.3} delay={400} triggerOnce={true}>
-            <div className="flex items-center pt-4 gap-x-6 md:gap-x-8 text-xl md:text-2xl">
-              <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110">
+            <div className="flex items-center pt-4 gap-x-6 md:gap-x-8 text-xl md:text-3xl">
+              <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 hover:text-accent transition-all duration-300">
               <a href="https://www.linkedin.com/in/kann-jittiwan/" target="_blank"><BsLinkedin /></a>  
               </div>
-              <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110">
+              <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 hover:text-accent transition-all duration-300">
               <a href="https://github.com/kjittiwan" target="_blank"><BsGithub /></a> 
               </div>
-              <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110">
-              <a href="mailto: kann.jittiwan@gmail.com"><IoMailOutline /></a>
+              <div className="p-5 rounded-full shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 hover:text-accent transition-all duration-300">
+              <a href="mailto: kann.jittiwan@gmail.com"><IoMail /></a>
               </div>
             </div>
           </Slide>

@@ -16,9 +16,9 @@ export default function ProjectItem({data}) {
               })}
             </div>
             <div className='flex justify-center gap-x-4 md:gap-x-10 lg:gap-x-0 lg:justify-between w-full font-semibold text-lg mt-4'>
-              <a href={data.github} target="_blank" className='flex items-center hover:text-blue-500 transition-all duration-300 gap-x-2'>Code<BsGithub className='text-3xl'/>
+              <a href={data.github} target="_blank" className='flex items-center hover:text-accent transition-all duration-300 gap-x-2'>Code<BsGithub className='text-3xl'/>
               </a>
-              <a href={data.demo} target="_blank" className='flex items-center  hover:text-blue-500 transition-all duration-300 gap-x-2'>Live Demo<FiExternalLink className='text-3xl'/>
+              <a href={data.demo} target="_blank" className='flex items-center  hover:text-accent transition-all duration-300 gap-x-2'>Live Demo<FiExternalLink className='text-3xl'/>
               </a>
             </div>
           </div>

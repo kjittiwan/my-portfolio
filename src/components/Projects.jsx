@@ -6,7 +6,7 @@ import { Fade, Slide } from 'react-awesome-reveal'
 
 export default function Projects() {
   return (
-    <div id='projects' className='min-h-screen w-full my-24 scroll-mt-40'>
+    <div id='projects' className='min-h-screen w-full my-24 scroll-mt-40 py-14'>
       <Fade duration={3000} triggerOnce={true} className='h-full w-full'>
         <div className="self-center text-center mb-16">
           <Slide direction='down' cascade damping={0.1} triggerOnce={true}>
@@ -15,16 +15,16 @@ export default function Projects() {
         </Slide> 
         </div>
         <div className='w-full flex flex-col items-center gap-y-20 px-4'>
-          <Slide direction='right' triggerOnce={true} className='w-full md:w-[90%] lg:w-[70%]'>
+          <Slide direction='right' triggerOnce={true} duration={1500} className='w-full md:w-[90%] lg:w-[70%]'>
             <ProjectItem data={cleoData} />
           </Slide>
-          <Slide direction='left' triggerOnce={true} className='w-full md:w-[90%] lg:w-[70%]'>
+          <Slide direction='left' triggerOnce={true} duration={1500} className='w-full md:w-[90%] lg:w-[70%]'>
             <ProjectItem data={atomData} />
           </Slide>
-          <Slide direction='right' triggerOnce={true} className='w-full md:w-[90%] lg:w-[70%]'>
+          <Slide direction='right' triggerOnce={true} duration={1500} className='w-full md:w-[90%] lg:w-[70%]'>
             <ProjectItem data={cryptoData} />
           </Slide>
-          <Slide direction='left' triggerOnce={true} className='w-full md:w-[90%] lg:w-[70%]'>
+          <Slide direction='left' triggerOnce={true} duration={1500} className='w-full md:w-[90%] lg:w-[70%]'>
             <ProjectItem data={highkingData} />
           </Slide> 
         </div>

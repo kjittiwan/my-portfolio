@@ -23,23 +23,23 @@ export default function Navbar() {
   return (
     <div className={`fixed w-full h-20 z-[100] ${isActive ? 'bg-primary shadow-xl' : 'bg-transparent'} `}>
       <div className="flex justify-between items-center w-full h-full px-6 md:px-16">
-        <h3 className="md:text-4xl">kann.</h3>
+        <a href="#home" className="font-bold text-2xl sm:text-3xl md:text-4xl">kann.</a>
         <div>
           <ul className="hidden md:flex gap-x-6 font-semibold text-lg">
-              <li className="hover:text-accent">
+              <li className="hover:text-accent transition-all duration-300">
                 <a href="#home">Home</a>
               </li>
-              <li className="hover:text-accent">
+              <li className="hover:text-accent transition-all duration-300">
                 <a href="#skills">Skills</a>
               </li>
-              <li className="hover:text-accent">
+              <li className="hover:text-accent transition-all duration-300">
                 <a href="#about">About</a>
               </li>
-              <li className="hover:text-accent">
+              <li className="hover:text-accent transition-all duration-300">
                 <a href="#projects">Projects</a>
               </li>
-              <li className="hover:text-accent">
-                <a href="">Contact</a>
+              <li className="hover:text-accent transition-all duration-300">
+                <a href="#contact">Contact</a>
               </li>
 
           </ul>
@@ -69,7 +69,7 @@ export default function Navbar() {
               <Link href='/#projects' onClick={toggleNav}>
                 <li className="hover:text-accent">Projects</li>
               </Link>
-              <Link href='/' onClick={toggleNav}>
+              <Link href='/#contact' onClick={toggleNav}>
                 <li className="hover:text-accent">Contact</li>
               </Link>
             </ul>

@@ -30,11 +30,14 @@ export default function About() {
                 </RoughNotationGroup>
               </p>
               <div className="flex items-center flex-col lg:flex-row gap-4 w-full mt-4 lg:mt-0">
-                  <button className="button-dark flex-1 w-[70%] md:w-[40%] lg:w-[70%]">View LinkedIn</button>
-                  <button className="button-outline flex-1 w-[70%] md:w-[40%] lg:w-[70%]">View GitHub</button>
+                <a href="https://www.linkedin.com/in/kann-jittiwan/" target="_blank" className="button-dark flex-1 w-[70%] md:w-[40%] lg:w-[70%] text-center">
+                  View LinkedIn
+                </a>
+                <a href="https://github.com/kjittiwan" target="_blank" className="button-outline flex-1 w-[70%] md:w-[40%] lg:w-[70%] text-center">
+                  View GitHub
+                </a>   
               </div>
-            </Slide>
-                
+            </Slide>  
           </div>
           <Slide direction='right' duration={2000} triggerOnce={true} className='w-[40%] h-full hidden lg:block relative'>
             <div className="w-full h-full relative rounded-xl">

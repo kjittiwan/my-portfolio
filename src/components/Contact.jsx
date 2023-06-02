@@ -5,7 +5,7 @@ import { FaMapMarkedAlt } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <div id="contact" className="w-full lg:w-[70%] h-full mx-auto pt-24 pb-32">
+    <div id="contact" className="w-full lg:w-[70%] h-full mx-auto pt-0 pb-20 lg:pt-24 md:pb-32">
       <Fade duration={3000} triggerOnce={true}>
         <div className="w-full h-fit flex flex-col md:items-center lg:items-start px-4 gap-y-12">
           <div className="md:text-center lg:text-left">

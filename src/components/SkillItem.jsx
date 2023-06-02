@@ -6,7 +6,7 @@ export default function SkillItem({ name }) {
     <div className="item">
       <div className="h-[2.3rem] w-[2.3rem] relative">
         <Image
-        src={`/../public/assets/skills/${name}.png`}
+        src={`/assets/skills/${name}.png`}
         alt='/'
         fill={true}
         style={{objectFit: "contain"}}

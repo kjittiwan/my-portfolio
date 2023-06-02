@@ -59,7 +59,7 @@ export const atomData = {
 export const cryptoData = {
   name: 'crypto planet',
   emoji: '🪐',
-  desc: 'A crypto app that allows users to search for and view information of various cryptocurrencies. Users can also login and add coins to their watchlist.',
+  desc: 'Using the CoinGecko API, this app allows users to search for and view information of various cryptocurrencies. Users can also login and add coins to their watchlist.',
   tech: ['React', 'Tailwind', 'Firebase'],
   github: 'https://github.com/kjittiwan/crypto-app',
   demo: 'https://cryptoplanet.vercel.app/',

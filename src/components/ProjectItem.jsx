@@ -3,7 +3,7 @@ import { BsGithub } from 'react-icons/bs'
 import { FiExternalLink } from 'react-icons/fi'
 export default function ProjectItem({data}) {
   return (
-    <div className='bg-white w-full md:w-[90%] lg:w-[70%]  py-10 rounded-xl shadow-lg flex flex-col lg:flex-row justify-center items-center gap-x-10 gap-y-10'>
+    <div className='bg-white w-full h-full  py-10 rounded-xl shadow-lg flex flex-col lg:flex-row justify-center items-center gap-x-10 gap-y-10'>
           <Carousel data={data.imgs}/>
           <div className='px-6 md:w-[450px] lg:w-[300px] text-center flex flex-col justify-between gap-y-4'>
             <h4 className='text-xl uppercase'>{data.name}<span className="ml-2 text-2xl">{data.emoji}</span></h4>

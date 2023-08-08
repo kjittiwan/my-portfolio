@@ -87,8 +87,8 @@ export const highkingData = {
   emoji: '🏔',
   desc: 'A landing page for a tour operator. The page has clean design with a modern layout. The user experience is smooth with transitions on every scroll down.',
   tech: ['Javascript', 'SCSS'],
-  github: 'https://github.com/kjittiwan/crypto-app',
-  demo: 'https://cryptoplanet.vercel.app/',
+  github: 'https://github.com/kjittiwan/hiking-website',
+  demo: 'https://highking-rho.vercel.app/',
   imgs: [
     {
       src: '/assets/highking/highking1.png',
